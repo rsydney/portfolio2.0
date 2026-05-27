@@ -1,0 +1,10 @@
+@keyframes floatSocial {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-5px); }
+  100% { transform: translateY(0px); }
+}
+
+.float-social:nth-child(1) { animation: floatSocial 4s ease-in-out infinite; animation-delay: 0s; }
+.float-social:nth-child(2) { animation: floatSocial 4s ease-in-out infinite; animation-delay: 0.4s; }
+.float-social:nth-child(3) { animation: floatSocial 4s ease-in-out infinite; animation-delay: 0.8s; }
+.float-social:nth-child(4) { animation: floatSocial 4s ease-in-out infinite; animation-delay: 1.2s; }
