@@ -3,8 +3,8 @@ import { FileText } from 'lucide-react'
 const CvButton = () => {
   const handleDownload = () => {
     const link = document.createElement('a')
-    link.href = ''
-    link.download = 'CV_Sydney_Ruddy_ITIERE.pdf'
+    link.href = '/SYDNEYCV.pdf'
+    link.download = ''
     link.click()
   }
 
