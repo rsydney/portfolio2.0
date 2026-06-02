@@ -83,7 +83,7 @@ export const projects = [
   title: "OCEAN CORP",
   description: "Entreprise immobiliere",
   type: "design",
-  thumbnail: "https://res.cloudinary.com/dyc7sit2n/image/upload/v1779920122/IDENTITE_VISUELLE_OCEAN_CORP_SAS_V2_rv3vzd.jpg",
+  thumbnail: "https://res.cloudinary.com/dyc7sit2n/image/upload/v1780407434/OCEAN_CORP_LOGO_hkokad.png",
   images: [
     "https://res.cloudinary.com/dyc7sit2n/image/upload/v1779920122/IDENTITE_VISUELLE_OCEAN_CORP_SAS_V2_rv3vzd.jpg",
     "https://res.cloudinary.com/dyc7sit2n/image/upload/v1779924339/7_ihohww.jpg",
@@ -100,8 +100,9 @@ export const projects = [
     title: "DONATELA CREA",
     description: "Creatrice de mode",
     type: "design",
-    thumbnail: "https://res.cloudinary.com/dyc7sit2n/image/upload/v1779920122/AUTOBIOGRAPHIE_wwiu8f.jpg",
+    thumbnail: "https://res.cloudinary.com/dyc7sit2n/image/upload/v1780407342/Design_sans_titre_2_rtay9q.png",
     images: [
+    "https://res.cloudinary.com/dyc7sit2n/image/upload/v1780407167/DONATELA_CREA_1_u45ykp.jpg",
     "https://res.cloudinary.com/dyc7sit2n/image/upload/v1779924242/1_nlbvcr.jpg",
     "https://res.cloudinary.com/dyc7sit2n/image/upload/v1779924242/3_mfygus.jpg",
     "https://res.cloudinary.com/dyc7sit2n/image/upload/v1779924242/5_qalu36.jpg",
