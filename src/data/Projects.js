@@ -113,6 +113,17 @@ export const projects = [
     pdf: "",
     link: null, 
   },
+      {
+    id: 8,
+    title: "YOOKA",
+    description: "Plateforme de billeterie en Afrique de l'Ouest",
+    type: "design",
+    thumbnail: "https://res.cloudinary.com/dyc7sit2n/image/upload/v1781534079/YOOKA_FINAL_novh8d.png",
+    images: [
+    "https://res.cloudinary.com/dyc7sit2n/image/upload/v1781534176/WhatsApp_Image_2026-06-15_at_14.16.55_kz2znj.jpg",
+    ],
+    link: null, 
+  },
 
   // ========== CODE ==========
   {
