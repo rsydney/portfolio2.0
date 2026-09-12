@@ -124,6 +124,47 @@ export const projects = [
     ],
     link: null, 
   },
+  {
+    id: 11,
+    title: "AYA",
+    description: "Plateforme de réservation et de découverte des services beauté",
+    type: "design",
+    thumbnail: "https://res.cloudinary.com/dyc7sit2n/image/upload/v1789207983/ChatGPT_Image_25_ao%C3%BBt_2026_16_18_56_vsphim.png",
+    images: [
+    "https://res.cloudinary.com/dyc7sit2n/image/upload/v1789208295/Screenshot_2026-09-12_101746_mjecuo.png",
+    "https://res.cloudinary.com/dyc7sit2n/image/upload/v1789208297/Screenshot_2026-09-12_101720_dov3xa.png",
+    "https://res.cloudinary.com/dyc7sit2n/image/upload/v1789208298/Screenshot_2026-09-12_101655_fgj6sw.png",
+    "https://res.cloudinary.com/dyc7sit2n/image/upload/v1789208298/Screenshot_2026-09-12_101628_knroag.png",
+            ],
+    link: "https://www.figma.com/make/YQkVTdTAQCzBKGYDNrLOkZ/AYA-MOBILE?t=iiy0q3dbXzc5fO7N-1", 
+  },
+  {
+    id: 12,
+    title: "MPT",
+    description: "Entreprise d'import/export de produit alimentaire",
+    type: "design",
+    thumbnail: "https://res.cloudinary.com/dyc7sit2n/image/upload/v1789208822/AYA_LOGO_vcznsh.png",
+    images: [
+    "https://res.cloudinary.com/dyc7sit2n/image/upload/v1789208824/MPT_CARRROUSEL_2_mamtl7.jpg",
+    "https://res.cloudinary.com/dyc7sit2n/image/upload/v1789208825/MPT_CARRROUSEL_ialw6j.jpg",
+    "https://res.cloudinary.com/dyc7sit2n/image/upload/v1789208826/MPT_CARRROUSEL_1_zgikpp.jpg",
+    "https://res.cloudinary.com/dyc7sit2n/image/upload/v1789208983/MPT_CARRROUSEL_3_tomauk.jpg",
+            ],
+    link: null, 
+  },
+  {
+    id: 13,
+    title: "ESSEBE COSMETICS",
+    description: "Marque spécialisée dans la production et la commercialisation de produits cosmétiques",
+    type: "design",
+    thumbnail: "https://res.cloudinary.com/dyc7sit2n/image/upload/v1789209053/WhatsApp_Image_2026-09-09_at_13.05.22_6_b7dhvh.jpg",
+    images: [
+    "",
+    "",
+    "",
+            ],
+    link: null, 
+  },
 
   // ========== CODE ==========
   {
