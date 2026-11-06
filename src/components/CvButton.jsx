@@ -11,10 +11,11 @@ const CvButton = () => {
   return (
     <button
       onClick={handleDownload}
-      className="fixed bottom-6 right-6 z-50 bg-white text-black p-3 rounded-full shadow-lg hover:scale-110 transition-transform duration-200"
+      className="fixed bottom-4 right-4 z-50 bg-white text-black p-2.5 rounded-full shadow-lg hover:scale-110 transition-transform duration-200 sm:bottom-6 sm:right-6 sm:p-3"
       title="Télécharger mon CV"
     >
-      <FileText size={24} />
+      <FileText size={20} className="sm:hidden" />
+      <FileText size={24} className="hidden sm:block" />
     </button>
   )
 }

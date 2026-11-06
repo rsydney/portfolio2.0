@@ -32,13 +32,13 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="bg-[#0a0a0a] px-16 py-24">
+    <section id="contact" className="bg-[#0a0a0a] px-6 py-16 sm:px-10 sm:py-20 lg:px-16 lg:py-24">
       <div className="max-w-2xl mx-auto">
 
         {/* Titre */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-white mb-4">Contacte moi</h2>
-          <p className="text-white/50 text-lg">
+        <div className="text-center mb-10 sm:mb-12">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Contacte moi</h2>
+          <p className="text-white/50 text-base sm:text-lg">
             Un projet en tête ? Discutons-en.
           </p>
         </div>
@@ -61,7 +61,7 @@ const Contact = () => {
         <form onSubmit={handleSubmit} className="flex flex-col gap-6">
 
           {/* Nom et Prénom */}
-          <div className="flex gap-4">
+          <div className="flex flex-col sm:flex-row gap-4">
             <div className="flex-1 flex flex-col gap-2">
               <Label htmlFor="nom" className="text-white/70">Nom</Label>
               <Input

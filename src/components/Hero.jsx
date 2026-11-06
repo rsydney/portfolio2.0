@@ -43,12 +43,12 @@ const Hero = () => {
   }
 
   return (
-    <section className="min-h-screen bg-[#0a0a0a] flex items-center px-16 pt-20 pb-24">
+    <section className="min-h-screen bg-[#0a0a0a] flex flex-col lg:flex-row items-center px-6 pt-28 pb-16 sm:px-10 lg:px-16 lg:pt-20 lg:pb-24 gap-10 lg:gap-0">
 
       {/* Côté gauche */}
-      <div className="flex-1 flex flex-col gap-6">
+      <div className="flex-1 flex flex-col gap-5 sm:gap-6 text-center lg:text-left items-center lg:items-start">
 
-        <div className="flex gap-3">
+        <div className="flex gap-3 flex-wrap justify-center lg:justify-start">
           <span className="border border-white/20 text-white/60 text-sm px-3 py-1 rounded-full">
             Design & Code
           </span>
@@ -57,11 +57,11 @@ const Hero = () => {
           </span>
         </div>
 
-        <h1 className="text-6xl font-bold text-white leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
           Ton expérience <br /> mérite d'être belle <br /> et fonctionnelle.
         </h1>
 
-        <p className="text-white/60 text-lg max-w-lg leading-relaxed">
+        <p className="text-white/60 text-base sm:text-lg max-w-lg leading-relaxed">
           Designer UX/UI et développeur React, je crée des interfaces qui allient
           esthétique et performance.{' '}
           <strong className="text-white">
@@ -69,7 +69,7 @@ const Hero = () => {
           </strong>
         </p>
 
-        <p className="text-white/60 text-lg max-w-lg">
+        <p className="text-white/60 text-base sm:text-lg max-w-lg">
           De l'idée au produit fini, je t'accompagne pour donner vie à tes projets
           avec précision et créativité.
         </p>
@@ -85,7 +85,7 @@ const Hero = () => {
 
       {/* Côté droit - Grille avec traits SVG */}
       <div className="flex-1 flex justify-center items-center">
-        <div className="relative" style={{ width: `${3 * CELL}px`, height: `${3 * CELL}px` }}>
+        <div className="relative scale-75 sm:scale-90 lg:scale-100" style={{ width: `${3 * CELL}px`, height: `${3 * CELL}px` }}>
 
           {/* Traits SVG animés */}
           <svg className="absolute inset-0 w-full h-full" style={{ zIndex: 0 }}>

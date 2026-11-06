@@ -48,12 +48,12 @@ const socials = [
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0a0a0a] border-t border-white/10 px-16 py-16">
-      <div className="max-w-6xl mx-auto flex gap-16">
+    <footer className="bg-[#0a0a0a] border-t border-white/10 px-6 py-12 sm:px-10 lg:px-16 lg:py-16">
+      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 lg:gap-16">
 
         {/* Gauche - Logo + infos */}
         <div className="flex-1 flex flex-col gap-4">
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-wrap">
             <span className="border border-white/20 text-white/60 text-xs px-3 py-1 rounded-full">Design</span>
             <span className="border border-white/20 text-white/60 text-xs px-3 py-1 rounded-full">Code</span>
             <span className="border border-white/20 text-white/60 text-xs px-3 py-1 rounded-full">Data</span>
